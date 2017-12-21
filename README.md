@@ -23,4 +23,4 @@ Maven goals:
 
 1. To start server - 'mvn clean package exec:java "-Dexec.args=8090 127.0.0.1"'
 
-2. To make executable - 'mvn clean compile assembly:single'
+2. To make executable jar - 'mvn clean compile assembly:single'
