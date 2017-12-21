@@ -5,9 +5,9 @@ It's a test standalone console app, tries to make Socket connection to port and 
 
 specified by params on start. After establishing connection it sends two JSONObjects
 
-["external_id", "1", "message", "New message 1", "time", LocalDateTime.now().plusSeconds(5L),"notification_type", "email=comexample@yandex.ru"]
+["external_id", "1", "message", "New message 1", "time", "2017-12-21T12:52:09.867","notification_type", "email=comexample@yandex.ru"]
 
-["external_id", "2", "message", "New message 2", "time", LocalDateTime.now().plusSeconds(10L),"notification_type", "url=https://www.ya.ru"]
+["external_id", "2", "message", "New message 2", "time", "2017-12-21T12:52:14.882","notification_type", "url=https://www.ya.ru"]
 
 Usage: java NotifyClient <port number> <IP address> (port 1-65535)
 
