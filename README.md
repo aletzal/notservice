@@ -1,5 +1,5 @@
 
-Notification Service
+Notification Service Test Client
 
 It's a test standalone console app, tries to make Socket connection to port and IP address 
 
